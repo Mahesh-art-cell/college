@@ -319,104 +319,105 @@ const UniversityLogos = () => {
       fontSize: '0.625rem',
       color: '#6b7280'
     },
-    viyansCard: {
-      border: '3px solid #dc2626',
-      borderRadius: '1rem',
-      padding: '1rem',
-      backgroundColor: 'white',
-      maxWidth: '350px',
-      width: '100%'
-    },
-    viyansMainContainer: {
-      display: 'flex',
-      alignItems: 'center',
-      marginBottom: '0.75rem'
-    },
-    viyansLogoContainer: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      marginRight: '1rem'
-    },
-    viyansLogo: {
-      width: '4rem',
-      height: '4rem',
-      borderRadius: '50%',
-      border: '3px solid #fbbf24',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      backgroundColor: 'white',
-      position: 'relative'
-    },
-    viyansLogoInner: {
-      width: '3rem',
-      height: '3rem',
-      background: 'linear-gradient(135deg, #f97316 0%, #dc2626 50%, #2563eb 100%)',
-      borderRadius: '50%',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      position: 'relative'
-    },
-    viyansSun: {
-      position: 'absolute',
-      top: '0.25rem',
-      left: '50%',
-      transform: 'translateX(-50%)',
-      width: '0.75rem',
-      height: '0.75rem',
-      backgroundColor: '#fbbf24',
-      borderRadius: '50%'
-    },
-    viyansWaves: {
-      position: 'absolute',
-      bottom: '0.25rem',
-      left: '50%',
-      transform: 'translateX(-50%)',
-      width: '1.5rem',
-      height: '0.5rem',
-      background: 'linear-gradient(90deg, #3b82f6 0%, #06b6d4 100%)',
-      borderRadius: '0.25rem'
-    },
-    viyansTextContainer: {
-      textAlign: 'left',
-      flex: 1
-    },
-    viyansMainTitle: {
-      fontSize: '1.5rem',
-      fontWeight: 'bold',
-      color: '#2563eb',
-      lineHeight: '1.1',
-      letterSpacing: '0.05em'
-    },
-    viyansSubTitle: {
-      fontSize: '1rem',
-      fontWeight: 'bold',
-      color: '#dc2626',
-      lineHeight: '1.1',
-      letterSpacing: '0.05em'
-    },
-    viyansDescription: {
-      fontSize: '0.875rem',
-      color: '#059669',
-      marginTop: '0.25rem',
-      fontStyle: 'italic'
-    },
-    viyansLocationButton: {
-      backgroundColor: '#2563eb',
-      color: 'white',
-      padding: '0.75rem 1.5rem',
-      borderRadius: '0.5rem',
-      fontWeight: 'bold',
-      border: 'none',
-      fontSize: '1rem',
-      width: '100%',
-      textAlign: 'center',
-      letterSpacing: '0.1em',
-      cursor: 'pointer',
-      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-    }
+
+viyansCard: {
+  border: '3px solid #dc2626',
+  borderRadius: '1rem',
+  padding: '1rem',
+  backgroundColor: 'white',
+  maxWidth: '350px',
+  width: '100%'
+},
+viyansMainContainer: {
+  display: 'flex',
+  alignItems: 'center',
+  marginBottom: '1rem'
+},
+viyansLogoContainer: {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  marginRight: '1rem'
+},
+viyansLogo: {
+  width: '4rem',
+  height: '4rem',
+  borderRadius: '50%',
+  border: '3px solid #fbbf24',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundColor: 'white',
+  position: 'relative'
+},
+viyansLogoInner: {
+  width: '3rem',
+  height: '3rem',
+  background: 'linear-gradient(135deg, #f97316 0%, #dc2626 50%, #2563eb 100%)',
+  borderRadius: '50%',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  position: 'relative'
+},
+viyansLogoCenter: {
+  width: '1.5rem',
+  height: '1.5rem',
+  backgroundColor: 'white',
+  borderRadius: '50%',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
+},
+viyansLogoSymbol: {
+  width: '1rem',
+  height: '1rem',
+  background: 'linear-gradient(135deg, #f97316 0%, #06b6d4 100%)',
+  borderRadius: '50%'
+},
+viyansTextContainer: {
+  textAlign: 'left',
+  flex: 1
+},
+viyansMainTitle: {
+  fontSize: '1.5rem',
+  fontWeight: 'bold',
+  color: '#2563eb',
+  lineHeight: '1.1',
+  letterSpacing: '0.05em'
+},
+viyansSubTitle: {
+  fontSize: '1rem',
+  fontWeight: 'bold',
+  color: '#dc2626',
+  lineHeight: '1.1',
+  letterSpacing: '0.05em'
+},
+viyansDescription: {
+  fontSize: '0.875rem',
+  color: '#059669',
+  marginTop: '0.25rem',
+  fontStyle: 'italic'
+},
+viyansLocationSection: {
+  backgroundColor: '#2563eb',
+  color: 'white',
+  padding: '0.75rem',
+  margin: '-1rem -1rem -1rem -1rem',
+  marginTop: '1rem',
+  borderBottomLeftRadius: '0.75rem',
+  borderBottomRightRadius: '0.75rem',
+  textAlign: 'center'
+},
+viyansLocationText: {
+  fontSize: '1.125rem',
+  fontWeight: 'bold',
+  letterSpacing: '0.1em'
+}
+
+
+
+    
   };
 
   return (
