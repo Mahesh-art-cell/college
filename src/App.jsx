@@ -1,8 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-// import './App.css'
-
 import React from 'react';
 
 const UniversityLogos = () => {
@@ -290,7 +286,7 @@ const UniversityLogos = () => {
       color: '#6b7280'
     },
     vitMicrotext: {
-      fontSize: '0.625rem',
+      fontSize: '0.9rem',
       color: '#9ca3af'
     },
     manavContainer: {
@@ -324,62 +320,102 @@ const UniversityLogos = () => {
       color: '#6b7280'
     },
     viyansCard: {
-      border: '2px solid #2563eb',
-      borderRadius: '0.5rem',
+      border: '3px solid #dc2626',
+      borderRadius: '1rem',
       padding: '1rem',
       backgroundColor: 'white',
-      maxWidth: '280px'
+      maxWidth: '350px',
+      width: '100%'
     },
-    viyansContainer: {
+    viyansMainContainer: {
       display: 'flex',
       alignItems: 'center',
       marginBottom: '0.75rem'
     },
-    viyansIconOuter: {
-      width: '3.5rem',
-      height: '3.5rem',
-      backgroundColor: '#2563eb',
+    viyansLogoContainer: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginRight: '1rem'
+    },
+    viyansLogo: {
+      width: '4rem',
+      height: '4rem',
+      borderRadius: '50%',
+      border: '3px solid #fbbf24',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: 'white',
+      position: 'relative'
+    },
+    viyansLogoInner: {
+      width: '3rem',
+      height: '3rem',
+      background: 'linear-gradient(135deg, #f97316 0%, #dc2626 50%, #2563eb 100%)',
       borderRadius: '50%',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      marginRight: '0.75rem'
+      position: 'relative'
     },
-    viyansIconInner: {
-      width: '2.5rem',
-      height: '2.5rem',
-      backgroundColor: '#ea580c',
-      borderRadius: '50%',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      color: 'white',
-      fontWeight: 'bold',
-      fontSize: '1rem'
+    viyansSun: {
+      position: 'absolute',
+      top: '0.25rem',
+      left: '50%',
+      transform: 'translateX(-50%)',
+      width: '0.75rem',
+      height: '0.75rem',
+      backgroundColor: '#fbbf24',
+      borderRadius: '50%'
     },
-    viyansText: {
-      textAlign: 'left'
+    viyansWaves: {
+      position: 'absolute',
+      bottom: '0.25rem',
+      left: '50%',
+      transform: 'translateX(-50%)',
+      width: '1.5rem',
+      height: '0.5rem',
+      background: 'linear-gradient(90deg, #3b82f6 0%, #06b6d4 100%)',
+      borderRadius: '0.25rem'
     },
-    viyansTitle: {
+    viyansTextContainer: {
+      textAlign: 'left',
+      flex: 1
+    },
+    viyansMainTitle: {
+      fontSize: '1.5rem',
       fontWeight: 'bold',
       color: '#2563eb',
-      fontSize: '1.125rem',
-      lineHeight: '1.1'
+      lineHeight: '1.1',
+      letterSpacing: '0.05em'
     },
-    viyansSubtitle: {
-      fontSize: '0.75rem',
-      color: '#6b7280'
+    viyansSubTitle: {
+      fontSize: '1rem',
+      fontWeight: 'bold',
+      color: '#dc2626',
+      lineHeight: '1.1',
+      letterSpacing: '0.05em'
     },
-    viyansButton: {
+    viyansDescription: {
+      fontSize: '0.875rem',
+      color: '#059669',
+      marginTop: '0.25rem',
+      fontStyle: 'italic'
+    },
+    viyansLocationButton: {
       backgroundColor: '#2563eb',
       color: 'white',
-      padding: '0.5rem 1rem',
-      borderRadius: '0.375rem',
+      padding: '0.75rem 1.5rem',
+      borderRadius: '0.5rem',
       fontWeight: 'bold',
       border: 'none',
-      fontSize: '0.875rem',
+      fontSize: '1rem',
       width: '100%',
-      textAlign: 'center'
+      textAlign: 'center',
+      letterSpacing: '0.1em',
+      cursor: 'pointer',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
     }
   };
 
@@ -504,20 +540,25 @@ const UniversityLogos = () => {
           </div>
         </div>
 
-        {/* Viyans Education */}
+        {/* Viyans Education - Updated Design */}
         <div style={styles.viyansRow}>
           <div style={styles.viyansCard}>
-            <div style={styles.viyansContainer}>
-              <div style={styles.viyansIconOuter}>
-                <div style={styles.viyansIconInner}>V</div>
+            <div style={styles.viyansMainContainer}>
+              <div style={styles.viyansLogoContainer}>
+                <div style={styles.viyansLogo}>
+                  <div style={styles.viyansLogoInner}>
+                    <div style={styles.viyansSun}></div>
+                    <div style={styles.viyansWaves}></div>
+                  </div>
+                </div>
               </div>
-              <div style={styles.viyansText}>
-                <div style={styles.viyansTitle}>VIYANS</div>
-                <div style={styles.viyansTitle}>EDUCON</div>
-                <div style={styles.viyansSubtitle}>Educational Consultancy</div>
+              <div style={styles.viyansTextContainer}>
+                <div style={styles.viyansMainTitle}>VIYANS</div>
+                <div style={styles.viyansSubTitle}>EDUCON</div>
+                <div style={styles.viyansDescription}>Educational Consultancy</div>
               </div>
             </div>
-            <button style={styles.viyansButton}>VIJAYAWADA</button>
+            <button style={styles.viyansLocationButton}>VIJAYAWADA</button>
           </div>
         </div>
       </div>
