@@ -470,11 +470,11 @@ const UniversityLogos = () => {
           {/* VIT */}
           <div style={styles.logoItem}>
             <div style={styles.vitContainer}>
-              <div style={styles.vitIcon}>VIT</div>
+              <div style={styles.vitIcon}>QUU</div>
               <div style={styles.vitText}>
-                <div style={styles.vitTitle}>VIT</div>
-                <div style={styles.vitSubtitle}>Vellore Institute of Technology</div>
-                <div style={styles.vitMicrotext}>An Institution of Eminence</div>
+                <div style={styles.vitTitle}>QUU</div>
+                <div style={styles.vitSubtitle}>Quantum University Uttarakhand</div>
+                <div style={styles.vitMicrotext}>8121634333, 9963523543</div>
               </div>
             </div>
           </div>
